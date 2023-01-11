@@ -1,0 +1,8 @@
+node_modules/
+preview/
+src/
+.git
+.gitignore
+.prettierrc
+build.js
+.env

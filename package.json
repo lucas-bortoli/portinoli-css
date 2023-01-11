@@ -1,0 +1,26 @@
+{
+  "name": "@lucas-bortoli/portinoli-css",
+  "version": "1.0.0",
+  "description": "Uma biblioteca CSS própria",
+  "type": "module",
+  "main": "index.css",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node build.js",
+    "dev": "node build.js --watch",
+    "prepublishOnly": "node build.js"
+  },
+  "keywords": [
+    "css",
+    "stylesheet",
+    "estilos",
+    "aparência"
+  ],
+  "author": "Lucas Bortoli",
+  "license": "MIT",
+  "devDependencies": {
+    "chalk": "^5.2.0",
+    "prettier": "^2.8.2",
+    "sass": "^1.57.1"
+  }
+}

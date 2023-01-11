@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../index.css" />
+    <title>Portinoli CSS Demo</title>
+  </head>
+  <body>
+    <div>
+      <button>Submit</button>
+      <button disabled>Disabled</button>
+    </div>
+    <div style="--icon-url: url('./preview/testIcon.svg')">
+      <button class="icon">Submit with icon</button>
+      <button class="icon" disabled>Disabled with icon</button>
+    </div>
+    <div>
+      <input type="text" placeholder="Text input" />
+      <button>Submit</button>
+    </div>
+    <div>
+      <input type="checkbox" />
+      <label>Checkbox</label>
+    </div>
+    <div>
+      <label>Number</label>
+      <input type="number" />
+    </div>
+    <div>
+      <label>Number (no controls)</label>
+      <input type="number" class="noArrows" />
+    </div>
+    <div>
+      <label>File input</label>
+      <input type="file" />
+    </div>
+
+    <style>
+      div {
+        display: flex;
+        align-items: center;
+        margin-bottom: 1rem;
+      }
+
+      div * {
+        margin-right: 0.5rem;
+      }
+    </style>
+  </body>
+</html>
