@@ -1,6 +1,6 @@
 {
   "name": "@lucas-bortoli/portinoli-css",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Uma biblioteca CSS própria",
   "type": "module",
   "main": "index.css",
